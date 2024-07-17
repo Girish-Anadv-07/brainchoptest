@@ -221,6 +221,7 @@ async function main() {
     }
   }
   function handleLocationChange(data) {
+    console.log(data)
     document.getElementById('location').innerHTML = '&nbsp;&nbsp;' + data.string
   }
   const defaults = {
